@@ -1,5 +1,5 @@
 {
-    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    "pages": [ // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
         {
             "path": "pages/home/home",
             "style": {}
@@ -15,6 +15,21 @@
         {
             "path": "pages/my/my",
             "style": {}
+        }
+    ],
+    "subPackages": [
+        {
+            "root": "subpkg",
+            "pages": [
+                {   
+                    "path" : "goods_detail/goods_detail",
+                    "style" : {}
+                },
+                {
+                    "path" : "goods_list/goods_list",
+                    "style" : {}
+                }
+            ]
         }
     ],
     "globalStyle": {
