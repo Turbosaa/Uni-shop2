@@ -1,4 +1,6 @@
 import App from './App';
+// 导入store的实例对象
+import store from './store/store.js';
 
 // 导入网络请求的包
 // 按需导入$http对象
@@ -35,7 +37,9 @@ import Vue from 'vue';
 Vue.config.productionTip = false;
 App.mpType = 'app';
 const app = new Vue({
-    ...App
+    ...App,
+    // 将store挂载到Vue实例上
+    store
 });
 app.$mount();
 // #endif

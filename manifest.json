@@ -56,7 +56,12 @@
             "checkSiteMap": false
         },
         "usingComponents": true,
-        "lazyCodeLoading": "requiredComponents"
+        "lazyCodeLoading": "requiredComponents",
+        "requiredPrivateInfos": [
+            "chooseLocation",
+            "getLocation",
+            "chooseAddress"
+        ]
     },
     "mp-alipay": {
         "usingComponents": true
