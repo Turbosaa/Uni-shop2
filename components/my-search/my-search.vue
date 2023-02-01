@@ -13,7 +13,7 @@
 
 <script>
     export default {
-        name:"my-search",
+        name: "my-search",
         props: {
             // 背景颜色
             bgcolor: {

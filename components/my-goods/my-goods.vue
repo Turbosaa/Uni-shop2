@@ -21,7 +21,7 @@
 
 <script>
     export default {
-        name:"my-goods",
+        name: "my-goods",
         // 定义props属性，用来接收外界传递到当前组件的数据
         props: {
             // 商品的信息对象

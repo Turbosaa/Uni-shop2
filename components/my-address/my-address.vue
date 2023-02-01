@@ -30,7 +30,7 @@
     import { mapState, mapMutations, mapGetters } from 'vuex';
     
     export default {
-        name:"my-address",
+        name: "my-address",
         data() {
             return {
                 // 2.1 - 注释掉下面的address对象，使用2.2中的代码替代之
